@@ -26,7 +26,6 @@ int Lista::push_front(int valor)
       return 1;
    }
 
-   cout << "Lista cheia\n";
    return -1;
 }
 int Lista::push_back(int valor)
@@ -38,7 +37,6 @@ int Lista::push_back(int valor)
       return 1;
    }
 
-   cout << "Lista cheia\n";
    return -1;
 }
 void Lista::at(int index)

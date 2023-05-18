@@ -6,13 +6,9 @@ using namespace std;
 
 int main()
 {
-   Lista a(100);
+   Lista a(50);
 
-   a.push_back(1);
-
-   a.toString();
-
-   a.toString();
+   // Realizar testes aqui
 
    return 0;
 }
