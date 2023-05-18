@@ -18,9 +18,9 @@ public:
    int pop_back();
    int removeAt(int index);
    int sizeOf();
-   int clear();
-   int sort();
-   int reverse();
+   void clear();
+   void sort();
+   void reverse();
    void at(int index);
    void toString();
 };
