@@ -75,7 +75,6 @@ int Lista::insert(int index, int valor)
       return 1;
    }
 
-   cout << "Lista cheia\n";
    return -1;
 }
 
