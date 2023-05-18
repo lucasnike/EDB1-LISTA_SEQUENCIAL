@@ -1,3 +1,0 @@
-/mnt/c/Users/ConcisoTI/Documents/Lucas Conciso/Codes/cpp/EDB1/Lista sequencial/CMakeFiles/program.dir
-/mnt/c/Users/ConcisoTI/Documents/Lucas Conciso/Codes/cpp/EDB1/Lista sequencial/CMakeFiles/edit_cache.dir
-/mnt/c/Users/ConcisoTI/Documents/Lucas Conciso/Codes/cpp/EDB1/Lista sequencial/CMakeFiles/rebuild_cache.dir
