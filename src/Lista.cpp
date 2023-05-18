@@ -61,7 +61,7 @@ int Lista::insert(int index, int valor)
    {
       return -1;
    }
-   
+
    if (size < capacity)
    {
       int aux = array[index];
@@ -107,9 +107,21 @@ int Lista::pop_back()
 
    return -1;
 }
-// int removeAt()
-// {
-// }
+int Lista::removeAt(int index)
+{
+   if (size > index)
+   {
+      for (int i = index; i < size - 1; i++)
+      {
+         array[i] = array[i + 1];
+      }
+      array[size - 1] = 0;
+      size--;
+      return 1;
+   }
+
+   return -1;
+}
 int Lista::sizeOf()
 {
    return size;
@@ -133,7 +145,7 @@ void Lista::sort()
             int aux = array[j];
             array[j] = array[j + 1];
             array[j + 1] = aux;
-         }  
+         }
       }
    }
 }
